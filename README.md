@@ -1,11 +1,13 @@
 # go-templar
 
-## package and file naming should be idiomatic
+go supports UTF-8
+each go file is in some package and that package should be a
+distinct folder in the GOPATH
 
-meaning that it should be one word short and concise
-shouldn't start with numbers
+main is a special package which doesn't require a main folder
+if you choose to make a main folder:  ensure to run binary properly
+one go code can't have more than one main go file
 
-== FORMAT CODE ==
+when code uses 
 
-cd to dir
-go fmt
+notes comments and concepts for learning golang
