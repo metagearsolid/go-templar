@@ -1,8 +1,8 @@
 // scope
 // universe > package > file > function > curly braces
 // if you declare var at top level outside function inside file:
-//   lowercase it is available in that package
-//   uppercase it is available outside package
+//   lowercase, it is available in that package
+//   uppercase, it is available outside package
 
 package main
 
@@ -14,7 +14,7 @@ var d string                                   // package scope
 
 func main() {
 
-	d = "stored in d" // declaration above; assignment here; package scope
+	d = "stored in d" // declaration above; initialization here; package scope
 	var e = 42        // function scope; subsequent variables have function scope
 	f := 43
 	g := "stored in g"
