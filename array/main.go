@@ -8,7 +8,7 @@ func main() {
 	a[0] = 42
 	a[1] = 13
 	fmt.Printf("The first element in %d\n", a[0])
-	fmt.Printf("The first element in %d\n", a[0])
+	fmt.Printf("The last element in %d\n", a[9])
 
 	// declare array with type int length 3, initialized with 1, 2, 3 for [0],[1],[2] respectively
 	array := [3]int{1, 2, 3}
