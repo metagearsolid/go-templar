@@ -52,7 +52,7 @@ func main() {
 	fmt.Printf("Variable d has value of %g\n", d) // %e for large exponents, %f otherwise
 	fmt.Printf("Variable d has value of %e\n", d) // %E for large exponents, %F otherwise
 
-	// string
+	// STRING
 	fmt.Printf("Variable e has value of %s\n", e) // uninterpreted bytes of the string or slice
 	fmt.Printf("Variable e has value of %q\n", e) // a double-quoted string safely escaped with Go syntax
 	fmt.Printf("Variable e has value of %x\n", e) // base 16, lower-case, 2 characters per byte
@@ -60,9 +60,9 @@ func main() {
 
 	// Width: specified by an optional decimal number immediately preceding the verb
 	// Precision:  specified after the optional width
-	fmt.Printf("Variable d has value of %2f\n", f)   // decimal point, no exponent, width 2
-	fmt.Printf("Variable d has value of %2.2f\n", f) // decimal point, no exponent, width 2, precision 2
+	fmt.Printf("Variable f has value of %2f\n", f)   // decimal point, no exponent, width 2
+	fmt.Printf("Variable f has value of %2.2f\n", f) // decimal point, no exponent, width 2, precision 2
 
-	//pointer
+	// POINTER
 	//fmt.Printf("Variable e has value of %p\n", e) // base 16, upper-case, 2 characters per byte
 }
