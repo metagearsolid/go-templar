@@ -7,7 +7,7 @@ import (
 
 func main() {
 	// Change character of string
-	s := "hello"   //declare string "hello"
+	s := "hellop"   //declare string "hello"
 	c := []byte(s) //convert string to []byte type
 	c[0] = 'c'
 	s2 := string(c) //convert back to string type
